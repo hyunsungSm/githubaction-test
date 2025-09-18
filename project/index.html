@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HyunSeong | Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="favicon1.ico">
+  <!-- reset.css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+
+  <!-- 구글 웹 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- 구글 머티리얼 아이콘 연결 -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <!-- Swiper CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!-- main.css -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- main.js -->
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+      <a href="index.html">
+        Hyun Seong
+      </a>
+
+      <nav class="font-en">
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#project">PROJECT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- VISUAL -->
+  <section class="visual">
+    <div class="inner">
+      <h1 class="font-en">
+        <span>Full Stack Developer</span><br>
+        <span>Hyun Seong</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="inner">
+      <h2 class="title font-en">ABOUT</h2>
+    </div>
+      <div class="about_wrapper">
+        <div class="about_img">
+          <img src="images/profile.jpg" alt="프로필">
+        </div>
+        <div class="about_text">
+          <h3 class="font-en">OH HYUN SEONG</h3>
+          <p>안녕하세요. 오현성입니다.</p>
+          <p>저는 HTML, CSS, JS를 사용하여 웹사이트의 디자인과 레이아웃을 구성하고<br>
+            JAVA, C, PYTHON을 사용하여 백엔드를 구상합니다.</p>
+            <p>저는 새로운 것을 배우는건 언제든 환영합니다.</p>
+            <p>주어진 역할에서 가치를 창출할 것이며, 맡은일을 애정을 가지고 수행할 것입니다.</p>
+          </div>
+        </div>
+        <div class="about_wrapper2">
+          <div class="about_education">
+            <h4>EDUCATION</h4>
+            <ul>
+              <li>클라우드(AWS)활용 자바/스프링 개발 부트캠프 수료 (2026. 01)</li>
+              <li>세명대학교 스마트IT학부 졸업예정 (2026. 02)</li>
+            </ul>
+          </div>
+          <div class="about_license">
+            <h4>LICENSE</h4>
+            <ul>
+              <li>리눅스 마스터 2급</li>
+              <li>SQLD</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 연락처 버튼 -->
+        <div class="about_btn font-en">
+          <a href="#contact">
+            <img src="images/icon/icon_contact.png" alt="">CONTACT
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <!-- SKILL -->
+  <section class="skill scroll-spy" id="skill">
+    <div class="inner">
+      <h2 class="title font-en">SKILL</h2>
+      <ul class="skill_list">
+        <li>
+          <h3 class="font-en">JAVA</h3>
+          <h4 class="font-en">JavaPrograming</h4>
+          <ul>
+            <li>객체지향</li>
+            <li>파일 입출력</li>
+            <li>JDBC</li>
+            <img src="/images/java_logo-530x337.png" alt="JAVA">
+          </ul>
+        </li>
+        <li>
+          <h3 class="font-en">HTML</h3>
+          <h4 class="font-en">HTML5</h4>
+          <ul>
+            <li>웹페이지 구조 설계</li>
+            <li>시맨틱 태그</li>
+            <img src="/images/about_img_01.svg" alt="HTML">
+          </ul>
+        </li>
+        <li>
+          <h3 class="font-en">CSS</h3>
+          <h4 class="font-en">CSS3</h4>
+          <ul>
+            <li>웹페이지 레이아웃 설계</li>
+            <li>웹페이지 디자인</li>
+            <li>반응형 제작</li>
+            <img src="/images/about_img_02.svg" alt="CSS">
+          </ul>
+        </li>
+        <li>
+          <h3 class="font-en">JS</h3>
+          <h4 class="font-en">JavaScript</h4>
+          <ul>
+            <li>DOM 조작, 제어</li>
+            <li>이벤트 처리</li>
+            <li>비동기 통신</li>
+            <img src="/images/about_img_03.svg" alt="JS">
+          </ul>
+        </li>
+        <li>
+          <h3 class="font-en">Python</h3>
+          <h4 class="font-en">Python</h4>
+          <ul>
+            <li>파이썬 기본 문법</li>
+            <li>파일 입출력, 예외 처리</li>
+            <li>데이터 분석 Pandas</li>
+            <img src="/images/png-transparent-python-logo.png" alt="PYTHON">
+          </ul>
+        </li>
+        <li>
+          <h3 class="font-en">Sql</h3>
+          <h4 class="font-en">Sql</h4>
+          <ul>
+            <li>데이터베이스 기본 구조</li>
+            <li>관계형 데이터베이스</li>
+            <li>데이터 조회 및 조작</li>
+            <img src="/images/다운로드.png" alt="SQL">
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECT -->
+  <section class="project font-en" id="project">
+    <div class="inner">
+      <h2 class="title font-en">PROJECT</h2>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/images/work_1.jpg" alt="Front">
+          </div>
+          <div class="flip-card-back">
+            <p><span>주요기능: </span>설명</p>
+            <p><span>적용 기술 : </span>HTML, CSS, JS, React, Java, Spring Boot</p>
+            <p><span>GitHub : </span>깃허브 주소</p>
+            <p><span>URL : </span>배포 주소</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact font-en scroll-spy" id="contact">
+    <div class="inner">
+      <h2 class="title font-en">CONTACT</h2>
+      <div class="contact_kakao">
+        <img src="/images/KakaoTalk_20250902_123945906_01.png" alt="">
+      </div>
+      <div class="contact__info">
+        <ul>
+          <li>
+            <a href="https://github.com/hyunsungSm" target="_blank">github.com/hyunsungSm</a>
+          </li>
+          <li>010-8963-1044</li>
+          <li>oohs942230@naver.com</li>
+        </ul>
+      </div>
+      <div class="contact__sns">
+        <ul>
+          <li>
+            <a href="#인스타그램주소" target="_blank">
+              <img src="images/icon/icon_insta.png" alt="인스타그램">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="images/icon/icon_youtube.png" alt="유튜브">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+      <p class="copyright">
+        &copy;
+        <span class="this-year"></span>
+        <span class="font-en">Oh Hyun Seong. Thank you</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <div id="toTop">
+    <a href="#">
+      <span class="material-symbols-outlined">arrow_upward</span>
+    </a>
+  </div>
+</body>
+</html>
